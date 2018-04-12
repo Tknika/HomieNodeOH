@@ -1,0 +1,25 @@
+{
+    "name": "HomieNodeOH",
+    "version": "0.1.0",
+    "keywords": "homie, iot, home, automation, mqtt, esp8266, sensor",
+    "description": "Arduino library to create HomieNodes compatible with openHAB 2.X Homie binding.",
+    "license": "MIT",
+    "authors": {
+        "name": "Aitor Iturrioz",
+        "url": "https://github.com/bodiroga",
+        "maintainer": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tknika/HomieNodeOH.git",
+        "branch": "master"
+    },
+    "frameworks": "arduino",
+    "platforms": "espressif8266",
+    "dependencies": [
+        {
+            "name": "Homie",
+            "version": "https://github.com/marvinroger/homie-esp8266.git#v2.0.0-beta.3"
+        }
+    ]
+}
